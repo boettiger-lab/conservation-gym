@@ -75,7 +75,7 @@ publishDir = "docs/"
 
 
 [params]
-    background = "https://github.com/espm-288/website/raw/master/static/img/whale-shark.jpg"
+    background = "img/icy-sugar-cubes.jpg"
     tint = "blue"
     custom_css = ["css/highlight.min.css"]
     custom_js = []

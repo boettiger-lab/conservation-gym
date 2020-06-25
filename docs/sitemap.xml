@@ -7,11 +7,11 @@
   </url>
   
   <url>
-    <loc>/hugo-now-ui/tags/</loc>
+    <loc>/hugo-now-ui/</loc>
   </url>
   
   <url>
-    <loc>/hugo-now-ui/</loc>
+    <loc>/hugo-now-ui/tags/</loc>
   </url>
   
 </urlset>
