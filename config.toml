@@ -1,7 +1,7 @@
 theme = "hugo-now-ui"
 baseurl = "hugo-now-ui"
 languageCode = "en-us"
-title = "Now UI Kit"
+title = "RL for Conservation"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
