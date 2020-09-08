@@ -12,24 +12,29 @@ publishDir = "docs/"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Introduction"
+    url = "../index.html#intro"
+    pre = "<i class='fa fa-rocket'></i>"
+    weight = 1
+[[menu.main]]
     name = "Develop Environments"
-    url = "#Environments"
+    url = "../index.html#Environments"
     pre = "<i class='now-ui-icons design_app'></i>"
     weight = 1
 [[menu.main]]
     name = "Train Agents"
-    url = "#Agents"
+    url = "../index.html#Agents"
     pre = "<i class='fa fa-fighter-jet'></i>"
     weight = 2
 [[menu.main]]
     name = "Leaderboard"
-    url = "#Leaderboard"
+    url = "../index.html#Leaderboard"
     pre = "<i class='fa fa-trophy'></i>"
     weight = 3
 [[menu.main]]
     name = "Contribute"
-    url = "#Contribute"
-    pre = "<i class='fa fa-trophy'></i>"
+    url = "../index.html#Contribute"
+    pre = "<i class='fa fa-user'></i>"
     weight = 4
 
 
