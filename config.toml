@@ -12,49 +12,26 @@ publishDir = "docs/"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Components"
-    url = "/components/"
+    name = "Develop Environments"
+    url = "#Environments"
     pre = "<i class='now-ui-icons design_app'></i>"
     weight = 1
 [[menu.main]]
-    name = "Landing"
-    url = "/landing/"
-    pre = "<i class='now-ui-icons business_bank'></i>"
-    weight = 1
-[[menu.main]]
-    name = "Profile"
-    url = "/profile/"
-    pre = "<i class='now-ui-icons users_single-02'></i>"
+    name = "Train Agents"
+    url = "#Agents"
+    pre = "<i class='fa fa-fighter-jet'></i>"
     weight = 2
 [[menu.main]]
-    name = "Signup"
-    pre = "<i class='now-ui-icons clothes_tie-bow'></i>"
-    url = "/login/"
+    name = "Leaderboard"
+    url = "#Leaderboard"
+    pre = "<i class='fa fa-trophy'></i>"
     weight = 3
 [[menu.main]]
-    name = "Dropdown"
-    pre = "<i class='now-ui-icons ui-1_settings-gear-63'></i>"
-    url = "#"
+    name = "Contribute"
+    url = "#Contribute"
+    pre = "<i class='fa fa-trophy'></i>"
     weight = 4
-    identifier = "dropdown"
-[[menu.main]]
-    name = "Template"
-    pre = "<i class='now-ui-icons files_paper'></i>"
-    url = "/template/"
-    weight = 1
-    parent = "dropdown"
-[[menu.main]]
-    name = "Posts"
-    pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
-    url = "/post/"
-    weight = 2
-    parent = "dropdown"
-[[menu.main]]
-    name = "Tags"
-    pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-    url = "/tags/"
-    weight = 2
-    parent = "dropdown"
+
 
 [[menu.footer]]
     identifier = "twitter"
