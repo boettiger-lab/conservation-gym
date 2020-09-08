@@ -1,5 +1,5 @@
 theme = "hugo-now-ui"
-baseurl = "hugo-now-ui"
+baseurl = ""
 languageCode = "en-us"
 title = "RL for Conservation"
 googleAnalytics = ""
@@ -13,29 +13,29 @@ publishDir = "docs/"
 
 [[menu.main]]
     name = "Introduction"
-    url = "../index.html#intro"
+    url = "#intro"
     pre = "<i class='fa fa-rocket'></i>"
     weight = 1
 [[menu.main]]
     name = "Develop Environments"
-    url = "../index.html#Environments"
+    url = "#Environments"
     pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 1
-[[menu.main]]
-    name = "Train Agents"
-    url = "../index.html#Agents"
-    pre = "<i class='fa fa-fighter-jet'></i>"
     weight = 2
 [[menu.main]]
-    name = "Leaderboard"
-    url = "../index.html#Leaderboard"
-    pre = "<i class='fa fa-trophy'></i>"
+    name = "Train Agents"
+    url = "#Agents"
+    pre = "<i class='fa fa-fighter-jet'></i>"
     weight = 3
 [[menu.main]]
-    name = "Contribute"
-    url = "../index.html#Contribute"
-    pre = "<i class='fa fa-user'></i>"
+    name = "Leaderboard"
+    url = "#Leaderboard"
+    pre = "<i class='fa fa-trophy'></i>"
     weight = 4
+[[menu.main]]
+    name = "Contribute"
+    url = "#Contribute"
+    pre = "<i class='fa fa-user'></i>"
+    weight = 5
 
 
 [[menu.footer]]
