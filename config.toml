@@ -1,4 +1,5 @@
 theme = "hugo-now-ui"
+baseURL = "conservation-gym/"
 languageCode = "en-us"
 title = "RL for Conservation"
 googleAnalytics = "UA-179064457-1"
