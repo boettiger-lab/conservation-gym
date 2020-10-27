@@ -1,5 +1,4 @@
 theme = "hugo-now-ui"
-baseurl = "/"
 languageCode = "en-us"
 title = "RL for Conservation"
 googleAnalytics = "UA-179064457-1"
