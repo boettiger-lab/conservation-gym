@@ -1,10 +1,10 @@
 theme = "hugo-now-ui"
-baseurl = ""
+baseURL = "conservation-gym/"
 languageCode = "en-us"
 title = "RL for Conservation"
 googleAnalytics = "UA-179064457-1"
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "_cache$", "\\.Rmarkdown$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 #enableGitInfo = true
 publishDir = "docs/"
 

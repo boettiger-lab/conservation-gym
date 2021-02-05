@@ -11,12 +11,12 @@
     <!-- CSS Files -->
     {{ $style := resources.Get "sass/now-ui-kit.scss" | toCSS | minify | fingerprint }}
 
-    <link href="{{ "css/bootstrap.min.css" | absURL }}" rel="stylesheet" />
-    <link href="{{ $style.Permalink }}" rel="stylesheet">
-    <link href="{{ "css/demo.css" | absURL }}" rel="stylesheet" />
+    <link href="{{ "css/bootstrap.min.css" | relURL }}" rel="stylesheet" />
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+    <link href="{{ "css/demo.css" | relURL }}" rel="stylesheet" />
 
     <meta content="testing" name='dc:title'>
   {{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
+    <link rel="stylesheet" href="{{ . | relURL }}">
   {{- end }}
 </head>
